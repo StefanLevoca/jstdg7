@@ -1,7 +1,7 @@
 const BitSet = (function() { // Set BitSet to the return value of this function
     // Private implementation details here
-    function isValid(set, n) { ... }
-    function has(set, byte, bit) { ... }
+    function isValid(set, n) { /*...*/ }
+    function has(set, byte, bit) { /*...*/ }
     const BITS = new Uint8Array([1, 2, 4, 8, 16, 32, 64, 128]);
     const MASKS = new Uint8Array([~1, ~2, ~4, ~8, ~16, ~32, ~64, ~128]);
 
